@@ -1,3 +1,4 @@
+//done
 function jsonMethods(jsonString) {
   console.log("Original JSON String:", jsonString);
 
@@ -15,7 +16,6 @@ const sampleJSONString =
   '{"key": "value", "number": 42, "nested": {"nestedKey": "nestedValue"}}';
 
 jsonMethods(sampleJSONString);
-
 
 // parsing is done for converting javasript objects into strings
 // stringify is done to convert it into strings and send it somewhere.

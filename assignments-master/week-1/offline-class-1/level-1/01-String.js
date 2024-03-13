@@ -1,3 +1,4 @@
+//Done
 // String handbook
 
 // String: length, indexOf(), lastIndexOf(), slice(), substring(), replace(),

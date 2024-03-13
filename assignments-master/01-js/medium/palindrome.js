@@ -4,7 +4,15 @@
 */
 
 function isPalindrome(str) {
-  return true;
-}
 
-module.exports = isPalindrome;
+  let strCopy = str.toLowerCase();
+  let start = 0;
+  let end = strCopy.length - 1;
+  while (start < end) {
+    if (strCopy[start] !== strCopy[end]) {
+      return false;
+    }
+    return true;
+  }
+
+  module.exports = isPalindrome;

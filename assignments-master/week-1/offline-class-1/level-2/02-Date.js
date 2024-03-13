@@ -1,3 +1,4 @@
+//done
 function dateMethods() {
   const currentDate = new Date();
   console.log("Current Date:", currentDate);

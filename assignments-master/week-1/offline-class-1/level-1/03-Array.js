@@ -1,3 +1,5 @@
+// Done
+
 // Array handbook
 
 // Array:   push(), pop(), shift(), unshift(), splice(), slice(),
@@ -56,7 +58,7 @@ concatExample([1, 2, 3], [4, 5, 6]);
 function forEachExample(arr) {
   console.log("Original Array:", arr);
 
-  arr.forEach(function(item, index) {
+  arr.forEach(function (item, index) {
     console.log(item, index);
   });
 }
@@ -66,7 +68,7 @@ forEachExample([1, 2, 3]);
 function mapExample(arr) {
   console.log("Original Array:", arr);
 
-  let newArr = arr.map(function(item) {
+  let newArr = arr.map(function (item) {
     return item * 2;
   });
   console.log("After map:", newArr);
@@ -77,7 +79,7 @@ mapExample([1, 2, 3]);
 function filterExample(arr) {
   console.log("Original Array:", arr);
 
-  let newArr = arr.filter(function(item) {
+  let newArr = arr.filter(function (item) {
     return item > 3;
   });
   console.log("After filter:", newArr);
@@ -88,7 +90,7 @@ filterExample([1, 2, 3, 4, 5]);
 function findExample(arr) {
   console.log("Original Array:", arr);
 
-  let found = arr.find(function(item) {
+  let found = arr.find(function (item) {
     return item > 3;
   });
   console.log("After find:", found);
@@ -99,7 +101,7 @@ findExample([1, 2, 3, 4, 5]);
 function sortExample(arr) {
   console.log("Original Array:", arr);
 
-  arr.sort(function(a, b) {
+  arr.sort(function (a, b) {
     return a - b;
   });
   console.log("After sort:", arr);
